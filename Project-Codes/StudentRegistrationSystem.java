@@ -16,6 +16,8 @@ public class StudentRegistrationSystem {
     int teens =0;
     int adults = 0;
 
+    int totalAge =0;
+
    for( int i =1; i <= students; i++){
        System.out.println("Enter student name:");
        String name = sc.nextLine();
@@ -24,6 +26,8 @@ public class StudentRegistrationSystem {
        int age = sc.nextInt();
 
        sc.nextLine();
+
+       totalAge +=age;
 
        String message;
 
@@ -44,9 +48,15 @@ public class StudentRegistrationSystem {
         System.out.println("--------------------------------");
 
     }
+
+    double averageAge=(double) totalAge / students;
+
    System.out.println("Children: " + children);
-   System.out.println("Teeners: " + teens);
+   System.out.println("Teens: " + teens);
    System.out.println("Adults: " + adults);
+
+   System.out.println("Total Age: " + totalAge);
+   System.out.println("Average: " + averageAge);
 
    System.out.println("Registration Finished");
 

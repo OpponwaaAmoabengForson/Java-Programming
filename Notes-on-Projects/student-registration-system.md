@@ -1,8 +1,8 @@
-### 🧑‍🎓 1. Student Registration System
+# 🧑‍🎓 1. Student Registration System
 
 The Student Registration System was my first bigger Java program where I combined the concepts I had learned.
 
-### 🎯 What the Program Does
+## 🎯 What the Program Does
 
 The program:
 
@@ -13,6 +13,8 @@ The program:
 - Asks for the student's age
 - Categorizes the student
 - Counts students in different categories
+- Calculates the Total Age of the students
+- Calculates the average of the Total Age
 - Displays the student's information
 - Displays a final message
 - Closes the Scanner
@@ -41,34 +43,6 @@ The project uses:
 - Multiple counters
 - Accumulators
 - Scanner.close()
-
----
-
-### 🔄 Program Flow
-
-Welcome
-   ↓
-Ask number of students
-   ↓
-Create counters
-   ↓
-Start loop
-   ↓
-Get student name
-   ↓
-Get student age
-   ↓
-Categorize student
-   ↓
-Increase appropriate counter
-   ↓
-Display student information
-   ↓
-Repeat
-   ↓
-Display final counts
-   ↓
-Close Scanner
 
 ---
 
